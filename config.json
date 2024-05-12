@@ -1,0 +1,167 @@
+{
+        "meta": {
+                "price_fetch_delay": 0,
+                "after_order_delay": 0,
+                "simulate": false,
+                "jito": {
+                        "enabled": false,
+                        "validator_tip": 400000,
+                        "sol_arbs_only": false
+                },
+                "slippage": {
+                        "mode": "exact",
+                        "bps": 2500,
+                        "inner_bps": 500
+                },
+                "increased_developer_buyback": true,
+                "wrap_mode": "all"
+        },
+        "tokens": [
+                {
+                        "mint": "So11111111111111111111111111111111111111112",
+                        "name": "SOL",
+                        "decimals": 9,
+                        "max_accounts": 25,
+                        "sizes": [
+                                {
+                                        "min_amt": 0.3,
+                                        "max_amt": 0.3,
+                                        "trade_size_decimals": 0,
+                                        "min_profit_onchain": 200,
+                                        "min_profit_to_send": 200
+                                },
+                                {
+                                        "min_amt": 0.5,
+                                        "max_amt": 0.5,
+                                        "trade_size_decimals": 200,
+                                        "min_profit_to_send": 200
+                                },
+                                {
+                                        "min_amt": 1,
+                                        "max_amt": 5,
+                                        "trade_size_decimals": 3,
+                                        "min_profit_to_send": 3
+                                }
+                        ],
+                        "prio_fee": 18888
+                },
+                {
+                        "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                        "name": "USDC",
+                        "decimals": 6,
+                        "max_accounts": 25,
+                        "sizes": [
+                                {
+                                        "min_amt": 150,
+                                        "max_amt": 150,
+                                        "trade_size_decimals": 0,
+                                        "min_profit_onchain": 10,
+                                        "min_profit_to_send": 10
+                                },
+                                {
+                                        "min_amt": 335,
+                                        "max_amt": 335,
+                                        "trade_size_decimals": 0,
+                                        "min_profit_onchain": 8,
+                                        "min_profit_to_send": 8
+                                },
+                                {
+                                        "min_amt": 575,
+                                        "max_amt": 575,
+                                        "trade_size_decimals": 0,
+                                        "min_profit_onchain": 3,
+                                        "min_profit_to_send": 3
+                                },
+                                {
+                                        "min_amt": 700,
+                                        "max_amt": 700,
+                                        "trade_size_decimals": 0,
+                                        "min_profit_onchain": 3,
+                                        "min_profit_to_send": 3
+                                }
+                        ],
+                        "prio_fee": 18888
+                },
+                {
+                        "mint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+                        "name": "USDT",
+                        "decimals": 6,
+                        "max_accounts": 26,
+                        "sizes": [
+                                {
+                                        "min_amt": 150,
+                                        "max_amt": 150,
+                                        "trade_size_decimals": 0,
+                                        "min_profit_onchain": 10,
+                                        "min_profit_to_send": 10
+                                },
+                                {
+                                        "min_amt": 335,
+                                        "max_amt": 335,
+                                        "trade_size_decimals": 0,
+                                        "min_profit_onchain": 8,
+                                        "min_profit_to_send": 8
+                                },
+                                {
+                                        "min_amt": 575,
+                                        "max_amt": 575,
+                                        "trade_size_decimals": 0,
+                                        "min_profit_onchain": 3,
+                                        "min_profit_to_send": 3
+                                },
+                                {
+                                        "min_amt": 700,
+                                        "max_amt": 700,
+                                        "trade_size_decimals": 0,
+                                        "min_profit_onchain": 3,
+                                        "min_profit_to_send": 3
+                                }
+                        ],
+                        "prio_fee": 18888
+                }
+        ],
+        "mids": {
+                "top_amt": 200,
+                "prune_percentage": -10,
+                "prune_readd_amt": 5,
+                "custom": [
+                        {
+                                {
+                                        "mint": "3psH1Mj1f7yUfaD5gh6Zj7epE8hhrMkMETgv5TshQA4o",
+                                        "name": "boden",
+                                        "decimals": 9
+                                },
+                                {
+                                        "mint": "MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5",
+                                        "name": "MEW",
+                                        "decimals": 5
+                                },
+                                {
+                                        "mint": "H7bTHGb5Cvo5fGe5jBDNDPUv8KykQnzyZA3qZ8sH7yxw",
+                                        "name": "GUMMY",
+                                        "decimals": 9
+                                },
+                                {
+                                        "mint": "25hAyBQfoDhfWx9ay6rarbgvWGwDdNqcHsXS3jQ3mTDJ",
+                                        "name": "MANEKI",
+                                        "decimals": 5
+                                },
+                                {
+                                        "mint": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+                                        "name": "POPCAT",
+                                        "decimals": 9
+                                },
+                                {
+                                        "mint": "KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS",
+                                        "name": "KMNO",
+                                        "decimals": 6
+                                },
+                                {
+                                        "mint": "D1qQSEBropPHtQza4QN813WNr9pHHQzpZaxjjC7DFAeE",
+                                        "name": "BOPI",
+                                        "decimals": 6
+                                }
+                        ]
+                }
+        }
+        
