@@ -23,27 +23,15 @@
                         "decimals": 9,
                         "max_accounts": 25,
                         "sizes": [
-                                {
-                                        "min_amt": 0.3,
-                                        "max_amt": 0.3,
-                                        "trade_size_decimals": 0,
-                                        "min_profit_onchain": 200,
-                                        "min_profit_to_send": 200
-                                },
-                                {
-                                        "min_amt": 0.5,
-                                        "max_amt": 0.5,
-                                        "trade_size_decimals": 200,
-                                        "min_profit_to_send": 200
-                                },
+
                                 {
                                         "min_amt": 1,
                                         "max_amt": 5,
-                                        "trade_size_decimals": 3,
-                                        "min_profit_to_send": 3
+                                        "trade_size_decimals": 0,
+                                        "min_profit_to_send": 5
                                 }
                         ],
-                        "prio_fee": 18888
+                        "prio_fee": 3000
                 },
                 {
                         "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
@@ -69,18 +57,18 @@
                                         "min_amt": 575,
                                         "max_amt": 575,
                                         "trade_size_decimals": 0,
-                                        "min_profit_onchain": 3,
-                                        "min_profit_to_send": 3
+                                        "min_profit_onchain": 5,
+                                        "min_profit_to_send": 5
                                 },
                                 {
                                         "min_amt": 700,
                                         "max_amt": 700,
                                         "trade_size_decimals": 0,
-                                        "min_profit_onchain": 3,
-                                        "min_profit_to_send": 3
+                                        "min_profit_onchain": 5,
+                                        "min_profit_to_send": 5
                                 }
                         ],
-                        "prio_fee": 18888
+                        "prio_fee": 3000
                 },
                 {
                         "mint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
@@ -88,13 +76,7 @@
                         "decimals": 6,
                         "max_accounts": 26,
                         "sizes": [
-                                {
-                                        "min_amt": 150,
-                                        "max_amt": 150,
-                                        "trade_size_decimals": 0,
-                                        "min_profit_onchain": 10,
-                                        "min_profit_to_send": 10
-                                },
+     
                                 {
                                         "min_amt": 335,
                                         "max_amt": 335,
@@ -106,18 +88,18 @@
                                         "min_amt": 575,
                                         "max_amt": 575,
                                         "trade_size_decimals": 0,
-                                        "min_profit_onchain": 3,
-                                        "min_profit_to_send": 3
+                                        "min_profit_onchain": 5,
+                                        "min_profit_to_send": 5
                                 },
                                 {
                                         "min_amt": 700,
                                         "max_amt": 700,
                                         "trade_size_decimals": 0,
-                                        "min_profit_onchain": 3,
-                                        "min_profit_to_send": 3
+                                        "min_profit_onchain": 5,
+                                        "min_profit_to_send": 5
                                 }
                         ],
-                        "prio_fee": 18888
+                        "prio_fee": 3000
                 }
         ],
         "mids": {
